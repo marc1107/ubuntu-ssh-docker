@@ -3,6 +3,10 @@ Ubuntu Docker with SSH pre-configured
 
 Tools like gcc, make, valgrind and git are also pre-installed
 
+**x86**:    for CPU's based on the x86 Architecture (Intel)
+**ARM**:    for CPU's based on the ARM Architecture (Apple M1/M2 or others)
+**NoUser**: if you don't want to configure username and password
+
 ## Usage
 
   1.  Docker has to be installed on your device
