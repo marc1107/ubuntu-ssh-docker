@@ -1,7 +1,7 @@
 # ubuntu-ssh-docker
 Ubuntu Docker with SSH pre-configured
 
-Tools like gcc, make, valgrind are also pre-installed
+Tools like gcc, make, valgrind and git are also pre-installed
 
 ## Usage
 
