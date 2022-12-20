@@ -16,6 +16,6 @@ Tools like gcc, make, valgrind and git are also pre-installed
   5.  Open a Terminal and navigate to the folder in which the modified Dockerfile is located
   6.  Build the image by running the command `docker build -t ubuntu-ssh-docker .` **(with the `.`at the end!)**
   7.  Finally run `docker run --name ubuntu-ssh -p 22:22 ubuntu-ssh-docker` 
-  8.  You can now connect via SSH by running `ssh username@127.0.0.1` or `ssh username@localhost`
+  8.  You can now connect via SSH by running `ssh username@localhost` or `ssh username@127.0.0.1`
 
 **To start the container when it stopped just run `docker start ubuntu-ssh` or click play on the Container in the Docker Desktop App**
