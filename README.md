@@ -3,7 +3,7 @@ Ubuntu Docker with SSH pre-configured
 
 Tools like gcc, make, valgrind are also pre-installed
 
-Usage:
+## Usage
 
   1.  Docker has to be installed on your device
   2.  Navigate to the Dockerfile (ARM folder for M1/M2 Macs or other ARM CPUs) and download
