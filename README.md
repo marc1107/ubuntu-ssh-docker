@@ -6,11 +6,12 @@ Tools like gcc, make, valgrind and git are also pre-installed
 ## Usage
 
   1.  Docker has to be installed on your device
-  2.  Navigate to the Dockerfile (ARM folder for M1/M2 Macs or other ARM CPUs) and download
-  3.  Change the username and password in `useradd` line and in `echo` line
-  4.  Build the image by running ```docker build -t ubuntu-ssh-docker .```
-  5.  Finally run `docker run --name ubuntu-ssh -p 22:22 ubuntu-ssh-docker` 
-  6.  You can now connect via SSH by running `ssh username@127.0.0.1` or `ssh username@localhost`
+  2.  Clone or download the repository
+  3.  Open the Dockerfile you need in a Text Editor (x86 for x86 Ubuntu and ARM for Macs with Apple Silicon Chip or other ARM Systems)
+  4.  Change the username and password in `useradd` line and in `echo` line to your username and password
+  5.  Open a Terminal and navigate to the folder in which the modified Dockerfile is located
+  6.  Build the image by running the command `docker build -t ubuntu-ssh-docker .` **(with the `.`at the end!)**
+  7.  Finally run `docker run --name ubuntu-ssh -p 22:22 ubuntu-ssh-docker` 
+  8.  You can now connect via SSH by running `ssh username@127.0.0.1` or `ssh username@localhost`
 
-
-To start the container when it stopped just run `docker start ubuntu-ssh`
+**To start the container when it stopped just run `docker start ubuntu-ssh` or click play on the Container in the Docker Desktop App**
