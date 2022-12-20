@@ -19,3 +19,5 @@ Tools like gcc, make, valgrind and git are also pre-installed
   8.  You can now connect via SSH by running `ssh username@localhost` or `ssh username@127.0.0.1`
 
 **To start the container when it stopped just run `docker start ubuntu-ssh` or click play on the Container in the Docker Desktop App**
+
+[Source for Dockerfile](https://dev.to/s1ntaxe770r/how-to-setup-ssh-within-a-docker-container-i5i)
