@@ -30,6 +30,15 @@ Tools like gcc, make, valgrind and git are also pre-installed
       ssh admin@127.0.0.1
       ```
 
+If you want to change the username form admin to your-username run:
+```
+usermod -l your-username admin
+```
+To change the password just run:
+```
+passwd
+```
+
 
 ## Usage (building the image yourself)
 
@@ -48,11 +57,11 @@ Tools like gcc, make, valgrind and git are also pre-installed
       ```
   8.  You can now connect via SSH by running:
       ```
-      ssh your_username@localhost
+      ssh your-username@localhost
       ```
       Alternatively run:
       ```
-      ssh your_username@127.0.0.1
+      ssh your-username@127.0.0.1
       ```
 
 **To start the container when it stopped just run:**
