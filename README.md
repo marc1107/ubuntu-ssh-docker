@@ -15,11 +15,11 @@ Tools like gcc, make, valgrind and git are also pre-installed
 
   1.  For the x86 image run :
       ```
-      docker run --name ubuntu-ssh -p 22:22 marc1107/ubuntu-ssh-docker:x86
+      docker run --name ubuntu-ssh -p 22:22 marc1107/ubuntu-ssh:x86
       ```
       For the ARM image run:
       ```
-      docker run --name ubuntu-ssh -p 22:22 marc1107/ubuntu-ssh-docker:arm
+      docker run --name ubuntu-ssh-arm -p 22:22 marc1107/ubuntu-ssh:arm
       ```
   2.  You can now connect via SSH by running:
       ```
