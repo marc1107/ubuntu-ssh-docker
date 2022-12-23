@@ -13,10 +13,13 @@ Tools like gcc, make, valgrind and git are also pre-installed
 **Default Password: passw123**
 
   1.  Run 
-      ```docker run --name ubuntu-ssh -p 22:22 marc1107/ubuntu-ssh-docker:x86```
+      ```
+      docker run --name ubuntu-ssh -p 22:22 marc1107/ubuntu-ssh-docker:x86
+      ```
       or
-      ```docker run --name ubuntu-ssh -p 22:22 marc1107/ubuntu-ssh-docker:arm```
-```docker run --name ubuntu-ssh -p 22:22 marc1107/ubuntu-ssh-docker:arm```
+      ```
+      docker run --name ubuntu-ssh -p 22:22 marc1107/ubuntu-ssh-docker:arm
+      ```
   2.  You can now connect via SSH by running `ssh admin@localhost` or `ssh admin@127.0.0.1`
 
 
