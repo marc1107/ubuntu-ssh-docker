@@ -7,7 +7,7 @@ Tools like gcc, make, valgrind and git are also pre-installed
 - **ARM**:    for CPU's based on the ARM Architecture (Apple M1/M2 or others)
 - **NoUser**: if you don't want to configure username and password
 
-## Usage (Using the default image)
+## Usage (using the default image)
 
 **Default Username:** admin
 
@@ -31,7 +31,7 @@ Tools like gcc, make, valgrind and git are also pre-installed
       ```
 
 
-## Usage (Building the image yourself)
+## Usage (building the image yourself)
 
   1.  Docker has to be installed on your device
   2.  Clone or download the repository
