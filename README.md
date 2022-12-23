@@ -30,7 +30,7 @@ Tools like gcc, make, valgrind and git are also pre-installed
       ssh admin@127.0.0.1
       ```
 
-If you want to change the username form admin to your-username run:
+If you want to change the username from admin to your-username run:
 ```
 usermod -l your-username admin
 ```
